@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Home = () => {
+const Parametres = () => {
     return (
         <View>
-            <Text>Ecran Accueil</Text>
+            <Text>Ecran Paramètres</Text>
         </View>
     )
 }
 
-export default Home
+export default Parametres

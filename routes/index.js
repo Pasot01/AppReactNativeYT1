@@ -3,6 +3,7 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../ecrans/home';
+import BottomTabs from '../ecrans/tabs';
 
 const Stack = createNativeStackNavigator();
 const Routes = () => {
@@ -11,7 +12,7 @@ const Routes = () => {
         // initialRouteName='home' 
         // screenOptions={{headerShown: false}}
         >
-            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="Home" component={BottomTabs} />
         </Stack.Navigator>
     </NavigationContainer>
 }
